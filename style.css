@@ -1,0 +1,157 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@600&family=Poppins:wght@100&family=Roboto:wght@100&display=swap');
+
+
+
+body{
+    background: #19A1AE;
+background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+background-position: right 45vw bottom 45vh , 45vw 45vh;
+background-repeat: no-repeat;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+font-family: 'Kumbh Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-weight: 700  400;
+overflow: hidden;
+margin:0px;
+padding:0px;
+box-sizing: border-box;
+
+}
+*{
+    
+ 
+    font-family: 'Kuhmb-Sans';
+    
+}
+@font-face {
+    font-family: 'Kuhmb-Sans';
+    src: url('path-to-font/Kuhmb-Sans,woff') format('woff');
+}
+.big-container{
+   background-image: url(./images/bg-pattern-card.svg);
+  
+    width: 22pc;
+    padding-top: 90px;
+    padding-bottom: 7pc;
+    margin-top: 6pc;
+    padding-right: 3pc;
+  
+    
+    border-radius: 15px;
+    height: 250px;
+    overflow: hidden;
+    
+    
+    
+}
+.spec{
+    font-family: sans-serif;
+    font-weight: 650;
+   
+}
+.box{
+    display: flex;
+}
+.myDiv center p{
+    font-family:Impact;
+    margin-right: 9pc;
+}
+
+
+.myDiv {
+  background:whitesmoke;
+  margin-bottom:6pc;
+  margin-right: 5pc;
+  width: 500px;
+  height: 200px;
+  padding-bottom: 7pc;
+
+
+}
+.particulars{
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    
+}
+.particulars::before{
+    content: "";
+    width: 397px;
+    height: 1px;
+    background-color: #E8E9EC;;
+    position: absolute;
+    justify-self: center;
+    margin-right: 6.3pc;
+}
+.name{
+    margin-right: 4pc;
+    margin-top: 3pc;
+}
+
+.location{
+    font-weight: 400;
+    color: rgb(80, 78, 78);
+    margin-right: 3pc;
+}
+img{
+    height:150px ;
+    width: 9rem;
+    margin-top: -1pc;
+    margin-bottom: -5pc;
+    margin-left: 3.5pc;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    padding: 0.5rem;
+    display: flex;
+
+}
+.attribution { font-size: 15px; text-align: center;margin-top: 6pc; }
+.attribution a { color: hsl(228, 45%, 44%); }
+.ttu{
+    font-weight: 50;
+    font-family:Kumbh Sans;
+    font-size: 18px;
+    margin-right: 5pc;
+    
+}
+.container{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    position: relative;
+    margin-bottom: 3rem; 
+    height: auto;
+}
+
+.age{
+    font-style: normal;
+    font-weight: 300;
+ 
+    color: rgb(80, 78, 78);
+    margin-left: 1pc;
+
+}
+.particulars .edit{
+    display: block;
+    color: darkgrey;
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+@font-face {
+  font-family: 'Kuhmb Sans';
+  src: url('path-to-font/KuhmbSans-Regular.ttf') format('truetype');
+
+           }
+
+@media screen and (max-width:768px){
+    .big-container{
+        flex-direction: column;
+    }
+
+}
